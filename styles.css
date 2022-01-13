@@ -279,3 +279,95 @@ main {
     text-align: center;
     color: #716f35;
 }
+
+#time-position-regularization {
+    position: relative;
+    top: -3rem;
+}
+
+#contato-footer {
+    position: relative;
+    top: 220rem;
+    z-index: 1;
+    background-color: #db9a8f;
+}
+
+#footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+#contact-container {
+    margin-left: 7.5rem;
+    max-width: 40%;
+}
+
+#contact-container h3 {
+    font-family: 'AileronRegular';
+    font-size: 2rem;
+    font-weight: 700;
+    color: #854f2b;
+    text-decoration: double;
+}
+
+#contact-container .first {
+    font-family: 'JosefinSansRegular';
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #854f2b;
+}
+
+#contact-container .second {
+    font-family: 'JosefinSansRegular';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #a74504;
+    text-decoration: underline;
+}
+
+#contact-container .second:hover {
+    color: #a66940;
+}
+
+#copyicons-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    justify-content: center;
+    align-content: center;
+    margin-right: 7.5rem;
+}
+
+#icons-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#icons-container img {
+    max-width: 8%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#copyicons-container h3 {
+    text-align: center;
+    font-family: 'AileronRegular';
+    font-size: 2rem;
+    font-weight: 900;
+    color: #461f05;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#copyicons-container h4 {
+    text-align: center;
+    font-family: 'AileronRegular';
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #461f05;
+    margin: 0 auto;
+}
